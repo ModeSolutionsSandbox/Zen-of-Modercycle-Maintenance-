@@ -37,6 +37,6 @@ def send_invite(email, message):
 	else:
 		print('ERROR: invite to %s failed.' % email)
 		print(r.text)
-# Update with the actual releative file path of the CSV with the list of members. CVS File should have the follwing columns: name, email, invite_message		
+# Update with the actual relative file path of the CSV with the list of members. CVS File should have the follwing columns: name, email, invite_message		
 df = pd.read_csv("ENTER FILE PATH")
 df.apply(lambda x: send_invite(x['email'],x['invite_message']), axis=1)

@@ -5,11 +5,12 @@ from datetime import datetime
 
 from requests.auth import HTTPBasicAuth
 
+host = 'https://app.mode.com'
+org  = 'ENTER WORKSPACE NAME FOUND IN URL'
+# You will need to generate an API Token & Password - Instructions on Mode Help Site. - https://mode.com/help/articles/api-reference/#generating-api-tokens
+un = 'NEW API TOKEN'
+pw = 'NEW API PASSWORD'
 
-host = 'https://modeanalytics.com'
-org = 'solutionssandbox'
-un = '3065fbd67935'
-pw = '68c2d7f789437fa3acfbbbcb'
 
 headers = {
 	'Content-Type': 'application/json',

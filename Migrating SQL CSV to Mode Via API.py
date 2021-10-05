@@ -1,3 +1,17 @@
+'''Summary and Description of the Script
+Overview: This script will import SQL code stored in a .csv file into a Mode Analytics Workspace that is targeted in the 'org' Global Variable (Line 11). The script will load the .csv into a dictionary that requires the following parameters:
++ Report Name - The name of the report/dashboard
++ query_name - The name of the query 
++ query	 - SQL Code 
++ datasource	 - This is the Datasource ID for the connection that this query will draw from in Mode, easily identified by querying your Mode Usage Metadata found in the Database Database. 
++ report _ID- Mode allows for a single report to have multiple queries, This will serve as a local variable that will tell the script which report will a query be assigned to.
++ space_token - This is the Collection  ID for the collection that this report will be catgoized and placed, this can also be identified by querying your Mode Usage Metadata found in the Database Database. 
+
+Date Created: 08/31/2021
+Created by: Mode Analytics - Solutions Engineering Team 
+'''
+
+
 import pandas
 import json
 import requests

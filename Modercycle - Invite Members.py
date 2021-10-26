@@ -2,7 +2,7 @@
 Send Email Invitations to the Mode Workspace Identified in the org variable
 
 Inputs:
-org - Mode Workspace username founjd in the subdomain of the Workspace URL
+org - Mode Workspace username found in the subdomain of the Workspace URL
 host - This is a durable global variable - Do Not Modify 
 api_token - API token used for the authentication - Instructions for how to generate an API Token & Password on Mode Help Site. - https://mode.com/help/articles/api-reference/#generating-api-tokens 
 api_password - API passeword used for authentication - Instructions for how to generate an API Token & Password on Mode Help Site. - https://mode.com/help/articles/api-reference/#generating-api-tokens 
